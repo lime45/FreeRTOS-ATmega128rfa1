@@ -126,7 +126,7 @@ extern void vPortExitCritical( void );
 /*-----------------------------------------------------------*/
 
 /* Architecture specifics. */
-#define portSTACK_GROWTH	
+#define portSTACK_GROWTH -1
 #define portTICK_PERIOD_MS	
 #define portBYTE_ALIGNMENT	
 #define portNOP()				
